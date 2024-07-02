@@ -108,13 +108,26 @@ span{
 .search-dropdown {
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: calc(100% + 20px);
+    left: -90px; 
     width: 200px;
     padding: 10px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 425px) {
+    #searchIcon {
+        margin-left: 10px;
+    }
+
+    .search-dropdown {
+        top: calc(100% + 20px);
+        left: -170px;
+    }
+}
+
+
 
 .search-dropdown input {
     width: 100%;

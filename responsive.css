@@ -15,11 +15,8 @@
     footer{
         height: 1100px;
     }
-    .fa-searchs{
-        visibility: visible;
-    }
+
     .search{
-        visibility: hidden;
         position: absolute;
     }
 }
